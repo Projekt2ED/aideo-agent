@@ -1,0 +1,55 @@
+{
+  "name": "seedance-producer-system",
+  "version": "1.0.0",
+  "description": "Seedance 2.0 AI Producer System - 多 Agent 协同短剧制片流水线 Skill",
+  "type": "skill",
+  "author": "Aideo Studio",
+  "license": "MIT",
+  "keywords": [
+    "seedance",
+    "ai-video",
+    "short-drama",
+    "producer",
+    "multi-agent",
+    "storyboard",
+    "compliance"
+  ],
+  "agents": {
+    "count": 5,
+    "list": [
+      "producer",
+      "director",
+      "compliance-officer",
+      "art-director",
+      "storyboard-artist"
+    ]
+  },
+  "skills": {
+    "count": 13,
+    "list": [
+      "project-management-skill",
+      "market-intelligence-skill",
+      "director-skill",
+      "script-analysis-review-skill",
+      "regional-compliance-skill",
+      "cultural-sensitivity-skill",
+      "brand-safety-skill",
+      "art-design-skill",
+      "visual-standards-skill",
+      "art-direction-review-skill",
+      "seedance-storyboard-skill",
+      "seedance-prompt-review-skill",
+      "audio-music-skill"
+    ]
+  },
+  "pipeline": {
+    "phases": 4,
+    "gates": 4,
+    "targetMarkets": [
+      "north-america",
+      "europe",
+      "southeast-asia",
+      "middle-east"
+    ]
+  }
+}
